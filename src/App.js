@@ -7,9 +7,9 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-      <Functions />
-      <Welcome />
-      <Navbar />
+      <Functions name="jhon" age="40" >This is children props</Functions>
+      <Functions name="rocky" age="20" />
+      <Functions name= "jack" age="30" />
     </div>
   );
 }
