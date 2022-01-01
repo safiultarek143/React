@@ -7,6 +7,7 @@ import Subscribe from './components/Subscribe';
 import Counter from './components/Counter';
 import CarOne from './components/CarOne';
 import ClickOne from './components/ClickOne';
+import ClickTwo from './components/ClickTwo';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       {/* <Counter /> */}
       <CarOne brand ="ford" color="black" />
       < ClickOne />
+      <ClickTwo />
     </div>
   );
 }

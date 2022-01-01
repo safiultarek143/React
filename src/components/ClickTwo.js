@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const ClickTwo = () => {
-    return (
-        <div>
-            
-        </div>
-    )
+ class ClickTwo extends Component {
+
+    clickHandler =() =>{
+        console.log("YOu clicked me")
+    }
+    render() {
+        return (
+            <div>
+            <button onClick={() => this.clickHandler()}>CLick Me!</button>    
+            </div>
+        )
+    }
 }
 
 export default ClickTwo
+
