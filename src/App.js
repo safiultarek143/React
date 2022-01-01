@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Subscribe from './components/Subscribe';
 import Counter from './components/Counter';
 import CarOne from './components/CarOne';
+import ClickOne from './components/ClickOne';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       {/* <Welcome /> */}
       {/* <Counter /> */}
       <CarOne brand ="ford" color="black" />
+      < ClickOne />
     </div>
   );
 }
