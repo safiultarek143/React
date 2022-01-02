@@ -6,7 +6,7 @@ import React, { Component } from 'react'
         super(props)
     
         this.state = {
-             isUser : false
+             isUser : true
         }
     }
     
@@ -20,7 +20,7 @@ import React, { Component } from 'react'
     //      msg = <div>Hello Guest</div>
     //   }
     //   return <div>{msg}</div>
-    return this.state.isUser ? <div>Hello User</div> : <div>Hello Guest</div>
+    return this.state.isUser && <div>Hello User</div>
     }
    
 }
