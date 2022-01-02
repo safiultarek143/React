@@ -11,6 +11,7 @@ import ClickTwo from './components/ClickTwo';
 import BindEvent from './components/BindEvent';
 import Parent from './components/Parent';
 import Condition from './components/Condition';
+import List from './components/List';
 function App() {
   return (
     <div className="App">
@@ -25,7 +26,8 @@ function App() {
       {/* <ClickTwo /> */}
       {/* <BindEvent /> */}
       {/* <Parent /> */}
-      <Condition />
+      {/* <Condition /> */}
+      <List />
     </div>
   );
 }
