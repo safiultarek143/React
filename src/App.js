@@ -9,6 +9,7 @@ import CarOne from './components/CarOne';
 import ClickOne from './components/ClickOne';
 import ClickTwo from './components/ClickTwo';
 import BindEvent from './components/BindEvent';
+import Parent from './components/Parent';
 function App() {
   return (
     <div className="App">
@@ -21,7 +22,8 @@ function App() {
       {/* <CarOne brand ="ford" color="black" /> */}
       {/* < ClickOne /> */}
       {/* <ClickTwo /> */}
-      <BindEvent />
+      {/* <BindEvent /> */}
+      <Parent />
     </div>
   );
 }
