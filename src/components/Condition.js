@@ -6,22 +6,20 @@ import React, { Component } from 'react'
         super(props)
     
         this.state = {
-             isUser : true
+             isUser : false
         }
     }
     
     render() {
+        let msg;
+
       if(this.state.isUser){
-          return(
-            <div>Hello User</div>
-          )
-         
+          msg = <div>Hello User</div> 
       }
       else{
-          return(
-              <div>Hello Guest</div>
-          )
+         msg = <div>Hello Guest</div>
       }
+      return <div>{msg}</div>
     }
 }
 
