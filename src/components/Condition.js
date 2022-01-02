@@ -11,16 +11,18 @@ import React, { Component } from 'react'
     }
     
     render() {
-        let msg;
+    //     let msg;
 
-      if(this.state.isUser){
-          msg = <div>Hello User</div> 
-      }
-      else{
-         msg = <div>Hello Guest</div>
-      }
-      return <div>{msg}</div>
+    //   if(this.state.isUser){
+    //       msg = <div>Hello User</div> 
+    //   }
+    //   else{
+    //      msg = <div>Hello Guest</div>
+    //   }
+    //   return <div>{msg}</div>
+    return this.state.isUser ? <div>Hello User</div> : <div>Hello Guest</div>
     }
+   
 }
 
 export default Condition
