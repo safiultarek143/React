@@ -10,8 +10,9 @@ import Child from './Child'
         }
         this.gretting = this.gretting.bind(this)
     }
-    gretting(){
-        alert("Hello"+this.state.message)
+    gretting(data){
+        // alert("Hello"+this.state.message)
+        alert(`Hello ${this.state.message} from ${data}`)
     }
     
     render() {
