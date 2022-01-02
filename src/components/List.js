@@ -4,19 +4,19 @@ import Person from './Person'
 
 const List = () => {
     const persons =[{
-        id: 1,
+        
         name: "megh"
     },
     {
-        id: 2,
+      
         name: "jack"
     },
     {
-        id: 3,
+        
         name: "pack"
     },
     {
-        id: 4,
+
         name: "nack"
     },
     ]
@@ -25,11 +25,11 @@ const List = () => {
         
         <div>
             {
-              persons.map((person) => {
+              persons.map((person, index) => {
                   return(
-                      <div key={person.id}>
-                          <Person person={person} />
-                      </div>
+                      
+                          <Person key={index} person={person} />
+                     
                   )
               })
             }
