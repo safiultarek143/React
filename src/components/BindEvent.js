@@ -8,11 +8,13 @@ import React, { Component } from 'react'
         this.state = {
             message: "Welcome" 
         }
+        this.clickHandler = this.clickHandler.bind(this)
     }
-    clickHandler = () => {
+    clickHandler() {
         this.setState({
             message : "good bye"
         })
+        console.log(this)
 
     }
     render() {
