@@ -8,6 +8,7 @@ import Counter from './components/Counter';
 import CarOne from './components/CarOne';
 import ClickOne from './components/ClickOne';
 import ClickTwo from './components/ClickTwo';
+import BindEvent from './components/BindEvent';
 function App() {
   return (
     <div className="App">
@@ -17,9 +18,10 @@ function App() {
       {/* <Subscribe /> */}
       {/* <Welcome /> */}
       {/* <Counter /> */}
-      <CarOne brand ="ford" color="black" />
-      < ClickOne />
-      <ClickTwo />
+      {/* <CarOne brand ="ford" color="black" /> */}
+      {/* < ClickOne /> */}
+      {/* <ClickTwo /> */}
+      <BindEvent />
     </div>
   );
 }
