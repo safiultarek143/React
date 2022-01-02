@@ -10,16 +10,13 @@ const List = () => {
         //     <h2>{persons[3]}</h2>
         //     <h2>{persons[4]}</h2>
         // </div>
+        // explicit return
         <div>
             {
-                persons.map((person)=> {
-                    return (
-                        <h2>{person}</h2>
-                    )
-
-                })
+                persons.map((person)=> <h2>{person}</h2>)
             }
         </div>
+            // explicit return
     )
 }
 
