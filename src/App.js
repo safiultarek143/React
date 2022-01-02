@@ -10,6 +10,7 @@ import ClickOne from './components/ClickOne';
 import ClickTwo from './components/ClickTwo';
 import BindEvent from './components/BindEvent';
 import Parent from './components/Parent';
+import Condition from './components/Condition';
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,8 @@ function App() {
       {/* < ClickOne /> */}
       {/* <ClickTwo /> */}
       {/* <BindEvent /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <Condition />
     </div>
   );
 }
