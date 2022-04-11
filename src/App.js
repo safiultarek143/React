@@ -26,8 +26,8 @@ function App() {
       {/* <ClickTwo /> */}
       {/* <BindEvent /> */}
       {/* <Parent /> */}
-      {/* <Condition /> */}
-      <List />
+      <Condition />
+      {/* <List /> */}
     </div>
   );
 }
