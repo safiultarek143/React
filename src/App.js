@@ -12,6 +12,7 @@ import BindEvent from './components/BindEvent';
 import Parent from './components/Parent';
 import Condition from './components/Condition';
 import List from './components/List';
+import Form from './components/Form';
 function App() {
   return (
     <div className="App">
@@ -27,7 +28,8 @@ function App() {
       {/* <BindEvent /> */}
       {/* <Parent /> */}
       {/* <Condition /> */}
-      <List />
+      {/* <List /> */}
+      <Form />
     </div>
   );
 }
